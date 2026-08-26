@@ -1,0 +1,6 @@
+{
+  "name": "Karachi Club - Elite Performance Gym",
+  "description": "High-performance fitness club and training facility landing page featuring assessment booking, authority coaches, tiered memberships, and program showcases.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
