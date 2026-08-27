@@ -29,7 +29,7 @@ export const StandardFeatures: React.FC<StandardFeaturesProps> = ({ onLearnMore 
         {/* Section Header */}
         <div className="max-w-3xl mb-12 sm:mb-16">
           <h2 className="font-display font-black text-4xl sm:text-5xl lg:text-6xl uppercase tracking-tight text-white leading-none">
-            THE KARACHI CLUB <span className="text-[#CCFF00]">STANDARD</span>
+            THE GYM <span className="text-[#CCFF00]">STANDARD</span>
           </h2>
           <p className="text-neutral-400 text-sm sm:text-base mt-4 font-normal max-w-xl">
             No gimmicks. Just modern methodology, elite equipment, and a culture that breeds success.

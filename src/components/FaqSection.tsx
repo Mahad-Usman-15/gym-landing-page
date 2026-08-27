@@ -26,7 +26,7 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenWhatsApp }) => {
             FREQUENTLY ASKED <span className="text-[#CCFF00]">QUESTIONS</span>
           </h2>
           <p className="text-neutral-400 text-sm sm:text-base mt-3 max-w-lg mx-auto">
-            Everything you need to know about getting started with Karachi Club.
+            Everything you need to know about getting started with GYM.
           </p>
         </div>
 

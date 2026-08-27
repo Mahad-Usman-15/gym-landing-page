@@ -18,7 +18,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenBookin
   ];
 
   const handleSendMessage = (textToSend?: string) => {
-    const text = textToSend || message || 'Assalam o Alaikum Karachi Club! I want to inquire about gym membership and assessment.';
+    const text = textToSend || message || 'Assalam o Alaikum GYM! I want to inquire about gym membership and assessment.';
     const encoded = encodeURIComponent(text);
     window.open(`https://wa.me/923260242596?text=${encoded}`, '_blank');
     setMessage('');
@@ -33,7 +33,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenBookin
           id="floating-whatsapp-btn"
           onClick={() => setIsOpen(!isOpen)}
           className="relative group p-3.5 sm:p-4 rounded-full bg-[#25D366] text-white shadow-[0_4px_25px_rgba(37,211,102,0.45)] hover:scale-105 transition-all duration-300 flex items-center justify-center cursor-pointer"
-          aria-label="Chat with Karachi Club on WhatsApp"
+          aria-label="Chat with GYM on WhatsApp"
         >
           {isOpen ? (
             <X className="w-6 h-6 stroke-[2.5]" />
@@ -62,7 +62,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenBookin
                 <span className="absolute bottom-0 right-0 w-2.5 h-2.5 rounded-full bg-[#25D366] border border-black" />
               </div>
               <div>
-                <h4 className="font-bold text-sm leading-tight">Karachi Club Concierge</h4>
+                <h4 className="font-bold text-sm leading-tight">GYM Concierge</h4>
                 <p className="text-[10px] text-[#A7E8BD] flex items-center gap-1">
                   <span>● Online</span> &bull; <span>Replies in &lt;5 mins</span>
                 </p>
@@ -79,7 +79,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenBookin
           {/* Chat Body */}
           <div className="p-4 bg-[#0d0d0d] space-y-3 max-h-64 overflow-y-auto">
             <div className="bg-[#1e1e1e] border border-neutral-800 rounded-xl rounded-tl-none p-3 text-xs text-neutral-200 max-w-[90%] space-y-1">
-              <p>Assalam o Alaikum! Welcome to Karachi Club. How can we help accelerate your fitness journey today?</p>
+              <p>Assalam o Alaikum! Welcome to GYM. How can we help accelerate your fitness journey today?</p>
               <span className="text-[9px] text-neutral-500 flex items-center justify-end gap-1">
                 Just now <CheckCheck className="w-3 h-3 text-[#25D366]" />
               </span>

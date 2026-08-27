@@ -33,7 +33,7 @@ export default function App() {
 
   const handleOpenWhatsApp = () => {
     const message = encodeURIComponent(
-      'Assalam o Alaikum Karachi Club team! I would like to inquire about gym membership, personal training, and assessment slots.'
+      'Assalam o Alaikum GYM team! I would like to inquire about gym membership, personal training, and assessment slots.'
     );
     window.open(`https://wa.me/923260242596?text=${message}`, '_blank');
   };
@@ -77,7 +77,7 @@ export default function App() {
           onSubmitLead={handleLeadSubmit}
         />
 
-        {/* 2. The Karachi Club Standard (4 Feature Cards) */}
+        {/* 2. The GYM Standard (4 Feature Cards) */}
         <StandardFeatures />
 
         {/* 3. Designed for Performance + Programs Showcase */}

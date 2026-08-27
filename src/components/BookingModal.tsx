@@ -53,7 +53,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
 
   const generateWhatsAppUrl = () => {
     const text = encodeURIComponent(
-      `Assalam o Alaikum Karachi Club team! I would like to confirm my Free Fitness Assessment:\n` +
+      `Assalam o Alaikum GYM team! I would like to confirm my Free Fitness Assessment:\n` +
       `👤 Name: ${formData.fullName}\n` +
       `📱 Phone: ${formData.phoneNumber}\n` +
       `📍 Location: ${formData.preferredLocation}\n` +
