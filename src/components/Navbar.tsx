@@ -42,11 +42,9 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenWhatsApp })
             id="brand-logo-link"
             className="flex items-center gap-2 group transition-transform active:scale-95"
           >
-            <div className="w-8 h-8 rounded bg-[#CCFF00] flex items-center justify-center text-black font-black font-display text-lg tracking-tighter shadow-[0_0_15px_rgba(204,255,0,0.3)]">
-              KC
-            </div>
+            
             <span className="font-display text-2xl sm:text-3xl font-black tracking-tight text-white uppercase group-hover:text-[#CCFF00] transition-colors">
-              KARACHI<span className="text-[#CCFF00]">CLUB</span>
+              GYM
             </span>
           </a>
 

@@ -16,14 +16,9 @@ export const Footer: React.FC<FooterProps> = ({ onOpenWhatsApp, onOpenBooking })
           
           {/* Logo & Tagline */}
           <div className="space-y-2">
-            <div className="flex items-center gap-2">
-              <div className="w-7 h-7 rounded bg-[#CCFF00] flex items-center justify-center text-black font-black font-display text-base">
-                KC
-              </div>
               <span className="font-display text-2xl font-black tracking-tight text-white uppercase">
-                KARACHI<span className="text-[#CCFF00]">CLUB</span>
+                GYM
               </span>
-            </div>
             <p className="text-[11px] text-neutral-500 max-w-sm uppercase font-mono tracking-wider">
               &copy; 2024 ELITE PERFORMANCE GYM. ALL RIGHTS RESERVED.
             </p>
