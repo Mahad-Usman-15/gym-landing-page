@@ -35,7 +35,7 @@ export default function App() {
     const message = encodeURIComponent(
       'Assalam o Alaikum Karachi Club team! I would like to inquire about gym membership, personal training, and assessment slots.'
     );
-    window.open(`https://wa.me/923001234567?text=${message}`, '_blank');
+    window.open(`https://wa.me/923260242596?text=${message}`, '_blank');
   };
 
   const handleLeadSubmit = (data: BookingFormData) => {

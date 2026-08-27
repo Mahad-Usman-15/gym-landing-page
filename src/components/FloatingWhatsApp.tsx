@@ -20,7 +20,7 @@ export const FloatingWhatsApp: React.FC<FloatingWhatsAppProps> = ({ onOpenBookin
   const handleSendMessage = (textToSend?: string) => {
     const text = textToSend || message || 'Assalam o Alaikum Karachi Club! I want to inquire about gym membership and assessment.';
     const encoded = encodeURIComponent(text);
-    window.open(`https://wa.me/923001234567?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/923260242596?text=${encoded}`, '_blank');
     setMessage('');
     setIsOpen(false);
   };

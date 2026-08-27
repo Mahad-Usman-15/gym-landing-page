@@ -5,7 +5,7 @@ import { COACHES, LOCATIONS } from '../data/gymData';
 
 interface BookingModalProps {
   isOpen: boolean;
-  onClose: () => void;
+  onClose: () => void; 
   initialData?: Partial<BookingFormData>;
   selectedPlan?: PricingPlan | null;
 }
@@ -62,7 +62,7 @@ export const BookingModal: React.FC<BookingModalProps> = ({
       `⏰ Slot: ${formData.preferredTime}\n` +
       `${selectedPlan ? `💳 Plan: ${selectedPlan.name} (PKR ${selectedPlan.pricePKR.toLocaleString()}/mo)` : ''}`
     );
-    return `https://wa.me/923001234567?text=${text}`;
+    return `https://wa.me/923260242596?text=${text}`;
   };
 
   return (

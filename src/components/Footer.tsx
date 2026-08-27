@@ -58,7 +58,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenWhatsApp, onOpenBooking })
               className="text-[#CCFF00] hover:underline flex items-center gap-1 font-bold"
             >
               <MessageSquare className="w-3.5 h-3.5" />
-              <span>+92 300 1234567</span>
+              <span>+92 326 0242596</span>
             </button>
             <span>&bull;</span>
             <span>KARACHI, PAKISTAN</span>
